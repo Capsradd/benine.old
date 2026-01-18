@@ -1,0 +1,39 @@
+*{
+    font-family: 'Arial', sans-serif;
+    font-style: bold;
+    color: #fff;
+}
+
+body{
+    background-color:  #0e001f;
+}
+
+ .content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30vh; 
+    margin-left: 50vh;
+}
+
+.image1 {
+    width: auto;
+}
+
+.production-img {
+    width: 400px;
+    height: auto;
+    display: block;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.text {
+    margin-left: 40px;
+    margin-top: 45px;
+    text-align: left;
+}
+
+.text h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    color: #fff;
+}

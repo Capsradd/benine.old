@@ -1,0 +1,61 @@
+body {
+    overflow-x: hidden;
+    background-color:  #0e001f;
+}
+
+.delivery1:hover {
+    text-decoration: underline;
+}
+
+
+.delivery2 {
+    font-family: Arial, sans-serif; 
+    color: #edf0f1;
+    text-align: left;
+    margin-top: px;
+    font-size: 20px;
+}
+
+
+.delivery {
+    position: absolute;
+    top: 55%;
+    left: 15.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #edf0f1;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.banner {
+    position: relative;
+    width: 165%;
+    right: 33%;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner img {
+    position: relative;
+    z-index: 1; /* Image is the background layer */
+    width: 100%;
+    display: block;
+}
+
+.center {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.koma {
+    font-size: 40px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+u:hover {color: rgb(162, 162, 223);}

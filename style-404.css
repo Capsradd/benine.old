@@ -1,0 +1,11 @@
+* {font-family: arial;
+    background-color: rgb(14, 0, 31);
+    color: white;}
+
+.text-mid {
+    height : 75vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;}
+
+h1{font-size: 180%;}

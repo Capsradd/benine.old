@@ -1,0 +1,86 @@
+*{
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    color: #fff;
+}
+
+body{
+    background-color:  #0e001f;
+}
+
+ .content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 12vh; 
+    margin-left: 50vh;
+}
+
+.Poster1 {
+    width: auto;
+}
+
+.Poster1 img {
+    width: 400px;
+    height: auto;
+    display: block;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.poster-text {
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.poster-text h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    color: #fff;
+}
+
+.poster-text ul {
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 24px;
+    list-style-type: disc;
+    padding: 0;
+}
+
+.poster-text .synopsis {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.poster-text .Achievement {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.poster-text p {
+    margin: 5px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.poster-img-stack {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.medal-img {
+    position: absolute;
+    top: 400px;      
+    left: 200px;    
+    transform: none;
+    width: 300px !important;
+    pointer-events: none;
+}
+
+.production-img {
+    display: block;
+    width: 180px;
+    height: auto;
+}
